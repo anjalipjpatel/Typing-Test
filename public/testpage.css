@@ -1,0 +1,261 @@
+/********* homepage redirect ***************/
+#homepage{
+	display: inline;
+}
+
+
+
+
+
+/******* text out to type ********/
+div.TextOut{
+	display: block;
+	text-align: center;
+}
+
+#TestOutput{
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 48px;
+	color: whitesmoke;
+	border-radius: 10px;
+  background: #3D2B3B;
+  padding: 10px;
+  width: 90%;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+/******** container for user input fields *********/
+div.container{
+	display: flex;
+	justify-content: center;
+}
+
+
+/****** user enters box *****/
+#Textbox{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 32px;
+	width: 90%;
+}
+
+div.TextIn{
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+}
+
+
+/******* usrename input box *********/
+div.InputUsername {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle; 
+  height: 100%;
+	width: 100%;
+}
+
+#Username{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 32px;
+	width: 25%;
+	min-width: 625px;
+}
+
+div.usersub{
+	display: inline-block;
+	text-align: center;
+	width: 5%
+}
+
+#submitUsername{
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 24px;
+	color: whitesmoke;
+	text-align: center;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+	background-color: #3D2B3B;
+	width: 100%;
+	font-weight: bold;
+	min-width: 30px;
+}
+
+#submitUsername:hover {
+	color: black;
+	background-color: whitesmoke;
+	border: 2px solid #3D2B32;
+}
+
+
+/******* retake bttn *******/
+div.Retake{
+	display: inline-block;
+	text-align: center;
+	width: 5%
+}
+
+#retakeBttn{
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 24px;
+	color: whitesmoke;
+	text-align: center;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+	background-color: #3D2B3B;
+	width: 100%;
+	font-weight: bold;
+}
+
+#retakeBttn:hover {
+	color: black;
+	background-color: whitesmoke;
+	border: 2px solid #3D2B32;
+}
+
+
+
+
+/*********** timer *****************/
+#Timer{
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 52px;
+	color: darkred;
+	text-align: center;
+	font-weight: 600;
+	display: block;
+}
+
+#Time:not(:empty){
+	font-family: "Courier New", "Courier", "monospace";
+	color: whitesmoke;
+	border-radius: 10px;
+	font-size: 52px;
+  background: #3D2B3B;
+  padding: 10px;
+  width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+
+
+/***** leaderboard redirect *****/
+div.Leaderboard{
+	display: block;
+	text-align: center;
+}
+
+#leaderboardBttn{
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 32px;
+	color: whitesmoke;
+	text-align: center;
+	display: inline-block;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+	background-color: #3D2B3B;
+	width: 20%;
+	font-weight: bold;
+	min-width: 150px;
+}
+
+#leaderboardBttn:hover {
+	color: black;
+	background-color: whitesmoke;
+	border: 2px solid #3D2B32;
+}
+
+
+
+
+
+
+/********* results ************/
+div.OutputResults{
+	display: block;
+	text-align: center;
+}
+
+
+#WPM:not(:empty){
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 52px;
+	color: whitesmoke;
+	border-radius: 10px;
+  background: #3D2B3B;
+  padding: 10px;
+  width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+/***** socials box *****/
+#socials{
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 16px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+div.SocialsBox{	
+	display: block;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
+
+
+
+
+
+
+
+
+/***** MISC *****/
+/* unvisited link */
+a:link {
+  color: hotpink;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: mediumpurple;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: indianred;
+}
+
+/* selected link */
+a:active {
+  color: whitesmoke;
+}
+
+body{
+	background-color: #362B3D;
+}
+
+.hidden{
+	display: none;
+}

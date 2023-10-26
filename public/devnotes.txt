@@ -1,0 +1,13 @@
+to do:
+
+- blur and unblur text content before starting
+- login system : SECURE
+- home button to ascii character instead of image?
+- differnet lengths
+- timer over whole screen - blur screen and countdown
+- font to more typescript monospaced
+- chekck percentage correct to stop spamming and getting high scores
+
+
+
+- all scores page - top 10 and all scores toggable

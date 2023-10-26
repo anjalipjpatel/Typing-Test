@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel= "stylesheet" href = "testpage.css">
+		<title>
+			Test Page
+		</title>
+	</head>
+
+	<body>
+		<a id="homepage" href="index.html">
+			<img src="home.png" alt="home" width="35" height="35">
+		</a>
+		
+		<div class="InputUsername">
+			<form id="UsernameInput" autocomplete="off">
+				<input type="text" id="Username" placeholder="Username (leave blank for guest) ">
+				<div class="usersub">
+					<button id="submitUsername" type="button">✓</button>
+				</div>
+			</form>
+		</div>
+		
+		<div class="TextOut">
+			<p id="TestOutput"></p>
+		</div>
+		
+		<div class="container">
+
+			<div class="TextIn">
+				<form id="TextInput" autocomplete="off">
+					<input type="text" id="Textbox" placeholder="Begin Typing Here...">
+				</form>
+			</div>
+			<div class="Retake">
+				<a id="retakeTest" href="testpage.html">
+					<button type="button" id="retakeBttn">
+						⟳
+					</button>
+				</a>
+			</div>
+
+		</div>
+		<div id="Timer"></div>
+
+
+		<div class="OutputResults">
+			<p id="Time"></p>
+			<p id="WPM"></p>
+			<p id="score"></p>
+		</div>
+		
+		<div class="SocialsBox">
+			<p id="socials">
+				Follow My Socials! -
+				X: <a href="https://twitter.com/anjalippatel_" target="_blank">@anjalippatel_</a>
+				- insta: <a href="https://www.instagram.com/anjalippatel_/" target="_blank">@anjalippatel_</a>
+				- snapchat: <a href="https://www.snapchat.com/add/anjalippatel" target="_blank">@anjalippatel</a>
+			</p>
+		</div>
+
+		<div class="Leaderboard">
+			<a id="LeaderboardRedirect" href="leaderboard.html">
+				<button type="button" id="leaderboardBttn">
+					LEADERBOARD
+				</button>
+			</a>
+		</div>		
+		
+	<script src="testpage.js"></script>
+
+	</body>
+	
+</html>

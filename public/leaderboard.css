@@ -1,0 +1,76 @@
+body {
+	background-color: #362B3D;
+}
+
+#homepage {
+	display: inline;
+}
+
+#socials {
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 16px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+div.SocialsBox {
+	display: block;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
+
+div.Home {
+	display: block;
+}
+
+div.Top10 {
+	display: block;
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 32px;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: bold;
+}
+
+#scoreList {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+}
+#scoreList li {
+  margin: 0.5em 0; /* Add some spacing between items */
+}
+
+#leaderboard {
+	font-family: "Courier New", "Courier", "monospace";
+	font-size: 48px;
+	color: lightpink;
+	display: inline;
+}
+
+div.LeaderboardTxt {
+	display: block;
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+	color: hotpink;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: mediumpurple;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+	color: indianred;
+}
+
+/* selected link */
+a:active {
+	color: whitesmoke;
+}
